@@ -1,6 +1,40 @@
 site_name: decodedata.io
+site_url: https://decodedataio.github.io/
 
 theme:
   name: material
+  font:
+    text: Monserrat
+  palette:
+    primary: teal
+    accent: cyan
+  
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+  
+plugins:
+  - search
 
+nav:
+  - Introduction: index.md
+  #- Products: products.md
+  - Reference:
+    - Glossary: reference/glossary.md
+    - Grid: reference/grid.md
+  
+markdown_extensions: 
+  - attr_list
+  - md_in_html
+
+  
 
