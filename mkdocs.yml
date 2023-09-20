@@ -5,9 +5,9 @@ theme:
   name: material
   font:
     text: Monserrat
-  palette:
-    primary: teal
-    accent: cyan
+  #palette:
+  #  primary: teal
+  #  accent: cyan
   
   features:
     - content.code.annotate
@@ -22,9 +22,24 @@ theme:
     - navigation.tracking
     - toc.integrate
 
-  
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent:  cyan #purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: cyan
+      
 plugins:
   - search
+  #- social
 
 nav:
   - Introduction: index.md
