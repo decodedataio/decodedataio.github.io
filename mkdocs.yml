@@ -14,30 +14,52 @@ theme:
     - content.code.copy
     - navigation.indexes
     - navigation.instant
-    - navigation.path
+    #- navigation.path
     - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - toc.integrate
+
   
 plugins:
   - search
 
 nav:
   - Introduction: index.md
-  #- Products: products.md
   - Reference:
-    - Glossary: reference/glossary.md
     - Grid: reference/grid.md
+  - Setup:
+    - Social Cards: setup/social_cards.md
   
 markdown_extensions: 
   - attr_list
   - md_in_html
+
+  # emoji
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji 
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+  # admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  # content tabs
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
   
 
