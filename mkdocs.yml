@@ -8,6 +8,8 @@ theme:
   font:
     text: Monserrat
   
+  logo: assets/DecodeDataLogo_106x106.png
+  
   features:
     - content.code.annotate
     - content.code.copy
