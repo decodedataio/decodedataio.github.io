@@ -1,0 +1,7 @@
+venv-mkdocs/*
+archive/*
+.obsidian/*
+next/*
+.DS_Store
+docs/.DS_Store
+pipeline
