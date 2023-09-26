@@ -1,19 +1,18 @@
 site_name: decodedata.io
 site_url: https://decodedataio.github.io/
+#docs_dir: 'docs'  
 
 theme:
   name: material
+  custom_dir: overrides
   font:
     text: Monserrat
-  #palette:
-  #  primary: teal
-  #  accent: cyan
   
   features:
     - content.code.annotate
     - content.code.copy
     - navigation.indexes
-    - navigation.instant
+    #- navigation.instant
     #- navigation.path
     - navigation.sections
     - navigation.tabs
@@ -23,30 +22,53 @@ theme:
     - toc.integrate
 
   language: en
+
+  direction: ltr
+
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
-      accent:  cyan #purple 
+      primary: custom #teal
+      accent:  cyan 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
+      primary: custom
       accent: cyan
       
 plugins:
   - search
-  #- social
+  #- meta
+  #- blog:
+  #    blog_dir: blog 
+  - i18n:
+      reconfigure_material: true
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: es
+          name: Español
+          nav_translations:
+            Home: Inicio
+            Reference: Referencia
+            Setup: Configuración
+            Grid: Grilla
+            Social Cards: Tarjatas sociales
 
 nav:
-  - Introduction: index.md
+  - Home: index.md
   - Reference:
     - Grid: reference/grid.md
   - Setup:
     - Social Cards: setup/social_cards.md
+  #- Blog: 
+  #  - blog/index.md
   
 markdown_extensions: 
   - attr_list
@@ -76,5 +98,19 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+
+# pip install mkdocs-static-i18n[material]
+#extra:
+#  alternate:
+#    - name: en - English
+#      link: /en/ 
+#      lang: en
+#    - name: es - Spanish
+#      link: /es/
+#      lang: es
   
 
