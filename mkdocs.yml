@@ -1,4 +1,4 @@
-site_name: decodedata
+site_name: decodedataio
 site_url: https://decodedataio.github.io/
 #docs_dir: 'docs'  
 
@@ -9,19 +9,29 @@ theme:
     text: Monserrat
   
   logo: assets/DecodeDataLogo_106x106.png
+  favicon: assets/DecodeDataLogo_48x48.png
   
   features:
-    - content.code.annotate
-    - content.code.copy
-    - navigation.indexes
+    #  **** Setting up navigation ****
     #- navigation.instant
-    #- navigation.path
-    - navigation.sections
+    - navigation.instant.prefetch
+    - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.top
-    - navigation.tracking
+    - navigation.sections
+    #- navigation.prune
+    - navigation.indexes
     - toc.integrate
+    - navigation.top
+
+    # **** Setting up navigation ****
+    - search.highlight
+
+    #- header.autohide
+    - announce.dismiss
+
+    - content.code.annotate
+    - content.code.copy
 
   language: en
 
@@ -105,14 +115,22 @@ extra_css:
   - assets/stylesheets/extra.css
 
 
-# pip install mkdocs-static-i18n[material]
-#extra:
-#  alternate:
-#    - name: en - English
-#      link: /en/ 
-#      lang: en
-#    - name: es - Spanish
-#      link: /es/
-#      lang: es
+extra:
+  social:
+    - icon: fontawesome/brands/medium
+      link: https://jim-barlow.medium.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/decodedataio
+
+
+  #alternate:
+  #  - name: en - English
+  #    link: /en/ 
+  #    lang: en
+  #  - name: es - Spanish
+  #    link: /es/
+  #    lang: es
+
+copyright: Copyright &copy; 2023 Transformationflow OÜ (16248096), Estonia
   
 
