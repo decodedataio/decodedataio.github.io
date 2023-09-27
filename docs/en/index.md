@@ -1,26 +1,152 @@
 ---
 hide:
   - navigation
----                                       
+  # - ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+---    
+
+# Decode Data
+<div class="grid cards" markdown>
+
+-   Decode Data (decodedata.io) is your solution to navigate the increasingly complex world of GA4 data. We help marketing agencies and mid to large-sized businesses efficiently access, process, and leverage their GA4 data in BigQuery. No coding, no complex implementations, and no inflated Google Cloud Storage costs.  Do more with the data you are collecting 
+
+    [:octicons-arrow-right-24: See more](http://127.0.0.1:8000/decodedata/)
+
+</div>
 
 
-## What we do
-We design, build, manage and license serverless Google Cloud data automation solutions, capabilities and products.
+# Company Overview
 
-## Who we are
-Transformationflow OÜ is a [Google Cloud Partner](https://cloud.google.com/find-a-partner/partner/transformationflow-%C3%96u), headquartered in Estonia (EU). 
 
-We are a remote, specialist team of Google Cloud Certified [Professional Data Engineers](https://cloud.google.com/learn/certification/data-engineer) who build data automation solutions, capabilities and products on Google Cloud.  We have been working exclusively with Google Cloud and BigQuery since 2017.
+<div class="grid cards" markdown>
 
-## How we do it
-We use [BigQuery](https://cloud.google.com/bigquery) as a foundation, in addition to complementary Google Cloud products such as:
+-   :material-clock-fast:{ .lg .middle } __Product & Services__
+    
+    ---
 
-- [Google Cloud Storage](https://cloud.google.com/storage) for file ingestion, storage and backup
-- [Pub/Sub](https://cloud.google.com/pubsub) for streaming data, messaging and scheduled query monitoring
-- [Python Cloud Functions](https://cloud.google.com/functions) for custom actions, notifications and interaction with external APIs
-- [Remote Functions](https://cloud.google.com/bigquery/docs/remote-functions) to deploy Cloud Functions in BigQuery workflows
-- [Scheduled Queries](https://cloud.google.com/bigquery/docs/scheduling-queries) for automation and orchestration
-- [BigQuery ML](https://cloud.google.com/bigquery/docs/bqml-introduction) for AI/ML and generative AI workflows
-- [Looker Studio](https://lookerstudio.google.com/) for end-user and data monitoring dashboards
+    Decode Data's core offering is a cloud-based platform that enables users to process and analyze their GA4 data in BigQuery without technical barriers or excessive costs. 
 
-We have advanced capabilities in all aspects of [GoogleSQL](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax) and the GoogleSQL [procedural language](https://cloud.google.com/bigquery/docs/reference/standard-sql/procedural-language).  We use these capabilities to build functions, procedures and table functions which solve complex data automation challenges in a rapid, scalable and replicable manner.
+
+-   :material-clock-fast:{ .lg .middle } __Target Audience__
+    
+    ---
+
+    Marketing Agencies, Mid to large-sized businesses
+
+
+-   :material-clock-fast:{ .lg .middle } __Unique Selling Proposition (USP)__
+    
+    ---
+
+    Unlocking the potential of BigQuery on GA4 data without the need for coding, complex implementations, or excessive Google Cloud Storage bills.
+
+
+</div>
+
+
+# Our mission
+
+_Transforming Data Complexity into Empowered Action_
+
+Decode Data exists to bridge the gap between the complex nature of GA4 and the needs of marketing agencies and mid to large-sized businesses.  We transform and simplify your GA4 data in an effortless way so that We empower these entities by 
+providing a simple solution to access and manage BigQuery data from GA4 without any technical prerequisites. By leveraging Decode Data, clients can overcome data quotas, optimize billing, and unleash the full potential of their data at a fraction of the cost.
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Mission__
+    
+    To simplify and democratize access to GA4 data, equipping businesses with the ability to understand, process, and apply their data more effectively.
+
+-   :material-clock-fast:{ .lg .middle } __Slogan__
+    
+    Decoding Complexity, Empowering Insights. 
+</div>
+
+
+# Marketing Strategy - Content Strategy
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Educational Content__
+
+    Develop a series of blog posts, webinars, and whitepapers about the challenges of using GA4 data, the benefits of BigQuery, and how Decode Data simplifies this process. 
+
+
+-   :material-clock-fast:{ .lg .middle } __Case Studies and Testimonials__
+
+    Showcase success stories from clients who have effectively leveraged our services to manage and optimize their GA4 data.
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Product Walkthroughs__
+
+    Create video content to provide a step-by-step guide on how our platform works, highlighting its ease of use and key benefits.
+
+-   :material-clock-fast:{ .lg .middle } __Data Science Insights__
+
+    Regularly share industry-related news, data analytics best practices, and cutting-edge strategies to position Decode Data as a thought leader in the field.
+
+</div>
+
+
+# Marketing Strategy - Awareness Building
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __SEO__
+
+    Optimize website content for search engines to improve visibility and reach.
+
+
+-   :material-clock-fast:{ .lg .middle } __Paid Advertising__
+
+    Implement Google Ads and social media advertising targeting keywords related to GA4, BigQuery, data analysis, and similar topics.
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Social Media__
+
+    Regularly post engaging content on social media platforms. Engage with followers, answer questions, and participate in relevant discussions.
+
+-   :material-clock-fast:{ .lg .middle } __Partnerships__
+
+    Collaborate with marketing agencies and tech companies that can promote our services to their clientele.
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Events and Workshops__
+
+    Host and participate in industry events, webinars, and workshops to increase brand exposure and demonstrate thought leadership.
+
+-   :material-clock-fast:{ .lg .middle } Email Marketing
+
+    Send regular newsletters to subscribers with useful content, updates, and special offers to keep them engaged and informed.
+
+</div>
+
+# Revenue Model
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } Subscription Model
+
+    Clients can subscribe to our platform on a monthly or annual basis. Different tiers of subscriptions can be offered based on the client's needs, the volume of data, and the level of support required.
+
+-   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
+
+</div>
+
+# Financial Projections
+
+<div class="grid cards" markdown>
+
+-   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+
+-   :material-clock-fast:{ .lg .middle } Financial Projections
+
+    As our business grows and scales, we anticipate increasing revenue through our subscription model. Our primary expenses will involve platform development, marketing, and staffing. With efficient marketing and sales strategies, we expect to achieve profitability within the first two years of operation.
+
+</div>
