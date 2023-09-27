@@ -10,7 +10,7 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 # [Optional] Uncomment this section to install additional OS packages.
 # Install the xz-utils package
 RUN apt-get update && apt-get install -y xz-utils
-RUN apt-get install -y pngquant
+#RUN apt-get install -y pngquant
 
 #COPY requirements.txt /tmp/pip-tmp/
 #RUN su vscode -c "python -m venv ${ENV_PATH}" \ 
