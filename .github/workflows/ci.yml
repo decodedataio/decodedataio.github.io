@@ -25,7 +25,7 @@ jobs:
       #- run: apt-get install pngquant
       - run: pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git
       - run: pip install mkdocs-material
-      - run: mkdocs-static-i18n[material]
+      - run: pip install mkdocs-static-i18n[material]
       - run: mkdocs gh-deploy --force
 env:
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
