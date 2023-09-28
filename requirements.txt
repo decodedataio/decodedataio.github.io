@@ -1,1 +1,6 @@
 mkdocs-static-i18n[material]
+mkdocs-material
+mkdocs-material-extensions
+pillow 
+cairosvg
+#[imaging]

@@ -25,7 +25,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "pip3 install --user -r requirements.txt", #'mkdocs-material[imaging]'
-	"postCreateCommand": "pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git mkdocs-static-i18n[material]",
+	"postCreateCommand": "pip install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git --user -r requirements.txt",
 
 	// Configure tool-specific properties.
 	"customizations": {

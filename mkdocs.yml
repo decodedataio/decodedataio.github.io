@@ -80,6 +80,7 @@ plugins:
             Home: Inicio
             Reference: Referencia
             Setup: Configuración
+  #- social:
 
 # Additional configuration
 extra:

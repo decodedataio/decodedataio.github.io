@@ -135,7 +135,7 @@ Decode Data existe para salvar las distancias entre la compleja naturaleza de GA
 
     Los clientes pueden suscribirse a nuestra plataforma de forma mensual o anual. Se pueden ofrecer diferentes niveles de suscripciones según las necesidades del cliente, el volumen de datos y el nivel de soporte requerido.
 
--   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
+-   ![Image title](assets/DecodeDataLogo_106x106.png){ align=right,  width=600, height=400  }
 
 </div>
 
@@ -143,7 +143,7 @@ Decode Data existe para salvar las distancias entre la compleja naturaleza de GA
 
 <div class="grid cards" markdown>
 
--   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+-   ![Image title](assets/DecodeDataLogo_106x106.png){ align=left,  width=600, height=400  }
 
 -   :material-clock-fast:{ .lg .middle } Financial Projections
 
