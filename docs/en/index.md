@@ -9,7 +9,7 @@ hide:
 
 -   Decode Data (decodedata.io) is your solution to navigate the increasingly complex world of GA4 data. We help marketing agencies and mid to large-sized businesses efficiently access, process, and leverage their GA4 data in BigQuery. No coding, no complex implementations, and no inflated Google Cloud Storage costs.  Do more with the data you are collecting 
 
-    [:octicons-arrow-right-24: See more](http://127.0.0.1:8000/decodedata/)
+    [:octicons-arrow-right-24: See more](https://decodedataio.github.io/decodedata/)
 
 </div>
 
