@@ -2,6 +2,7 @@
 hide:
   - navigation
   # - ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+template: home.html
 ---    
 
 # Decode Data
@@ -135,7 +136,7 @@ providing a simple solution to access and manage BigQuery data from GA4 without 
 
     Clients can subscribe to our platform on a monthly or annual basis. Different tiers of subscriptions can be offered based on the client's needs, the volume of data, and the level of support required.
 
--   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=right }
+-   ![Image title](assets/DecodeDataLogo_106x106.png){ align=right,  width=600, height=400 }
 
 </div>
 
@@ -143,7 +144,7 @@ providing a simple solution to access and manage BigQuery data from GA4 without 
 
 <div class="grid cards" markdown>
 
--   ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
+-   ![Image title](assets/DecodeDataLogo_106x106.png){ align=left,  width=600, height=400  }
 
 -   :material-clock-fast:{ .lg .middle } Financial Projections
 

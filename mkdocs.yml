@@ -93,6 +93,9 @@ extra:
 extra_css:
   - assets/stylesheets/extra.css
 
+extra_javascript:
+  - assets/javascripts/custom.js
+
 
 # Extensions
 markdown_extensions: 

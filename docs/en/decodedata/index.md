@@ -1,1 +1,3 @@
-# DecodeData
+---
+template: home.html
+---
