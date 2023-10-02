@@ -42,8 +42,11 @@ theme:
     #- header.autohide
     #- announce.dismiss
 
+    # Content
     - content.code.annotate
     - content.code.copy
+    - content.code.select
+    - content.tooltips
   language: en
   direction: ltr
   palette:
@@ -120,10 +123,9 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji 
       emoji_generator: !!python/name:materialx.emoji.to_svg
   
-  # admonition
+  # admonition & Annotations
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
 
   # code blocks
   - pymdownx.highlight:
@@ -131,19 +133,24 @@ markdown_extensions:
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
   - pymdownx.superfences
 
   # content tabs
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  
+  # Tooltips
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
 
 # Page tree
 nav:
   - Home: index.md
   - Decodedata: decodedata/index.md
   - Articles: articles/index.md
+  - Code Block Examples: decodedata/code-blocks.md
   #  - Reference: reference/index.md
   #  - Setup: reference/setup/setup.md
   #- Setup:
