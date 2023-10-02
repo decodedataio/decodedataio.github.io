@@ -1,0 +1,159 @@
+# Project information
+site_name: DecodeDataIO
+site_url: https://decodedataio.github.io/
+site_author: Jim & Nacho
+site_description: Decode GA4 data in BigQuery, high performance, easy to learn, ready for production
+docs_dir: docs-v2
+
+
+# Repository
+repo_name: decodedataio/decodedataio.github.io
+repo_url: https://github.com/decodedataio/decodedataio.github.io
+
+# Copyright
+copyright: Copyright &copy; 2023 Transformationflow OÜ (16248096), Estonia
+
+# Configuration
+theme:
+  name: material
+  custom_dir: decodedata/overrides
+  font:
+    #text: Monserrat
+    code: Roboto Mono
+  logo: assets/DecodeDataLogo_106x106.png
+  favicon: assets/DecodeDataLogo_48x48.png
+  features:
+    #  **** Setting up navigation ****
+    #- navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    #- navigation.prune
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+
+    # **** Setting up navigation ****
+    - search.highlight
+
+    # **** Announcement bar ****
+    #- header.autohide
+    #- announce.dismiss
+
+    - content.code.annotate
+    - content.code.copy
+  language: en
+  direction: ltr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent:  cyan 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: cyan
+  icon:
+    repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search
+  - meta:
+      meta_file: .meta.yml
+  #- blog:
+  #    blog_dir: blog 
+  - i18n:
+      reconfigure_material: true
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+        - locale: es
+          name: Español
+          nav_translations:
+              Home: Inicio
+              Articles: Artículos
+  - social:
+      debug: false
+      debug_color: yellow
+      cards_dir: social
+      cache_dir: docs-v2/templates
+      cards_layout: custom #default/accent
+      cards_layout_options:
+        background_color: "#0FF1CE8F"
+        background_image: layouts/DecodeDataLogo_106x106.png
+        color: "#DE9151"
+        font_family: Roboto
+
+# Additional configuration
+extra:
+  social:
+    - icon: fontawesome/brands/medium
+      link: https://jim-barlow.medium.com/
+    - icon: fontawesome/brands/github
+      link: https://github.com/decodedataio
+  #homepage: http://127.0.0.1:8000/
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/custom.js
+
+
+# Extensions
+markdown_extensions: 
+  # Grid
+  - attr_list
+  - md_in_html
+
+  # emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  
+  # admonition
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # code blocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  # content tabs
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+# Page tree
+nav:
+  - Home: index.md
+  - Decodedata: decodedata/index.md
+  - Articles: articles/index.md
+  #  - Reference: reference/index.md
+  #  - Setup: reference/setup/setup.md
+  #- Setup:
+  #  - Setup: setup/setup.md
+  #- Blog: 
+  #  - blog/index.md
+not_in_nav: |
+  /blog/index.md
+  /blog/index.es.md
+  /blog/posts/index.md
+
+

@@ -1,0 +1,97 @@
+size: { width: 1200, height: 630 }
+layers:
+  - background:
+      #image: layouts/DecodeDataLogo_106x106.png
+      color: teal #"#0000008F"
+  
+  # Decodedata Logo
+  - size: { width: 96, height: 96 }
+    offset: { x: 64, y: 460}
+    icon:
+      value:  material/black-mesa
+      color: "#FDD835"
+  
+  # Decodedata Name
+  - size: { width: 320, height: 42 }
+    offset: { x: 192, y: 470}
+    typography:
+      content: DecodeData IO
+      color: "#FDD835"
+      font:
+        family: Inter
+        style: Bold
+  
+  # Decodedata Subtitle
+  - size: { width: 1200, height: 30 }
+    offset: { x: 192, y: 510}
+    typography:
+      content: Decode GA4 data in BigQuery ready for production
+      color: "#FDD835"
+      font:
+        family: Inter
+        style: Regular
+  
+  # Decodedata Page Icon
+  - size: { width: 630, height: 630 }
+    offset: { x: 800, y: 0}
+    icon:
+      value:  "{{ page.meta.get('icon', 'material/black-mesa') }}"
+      color: "#FDD83533"
+
+  # Decodedata Page Tags
+  - size: { width: 320, height: 30 }
+    offset: { x: 700, y: 470}
+    typography:
+      content: >-
+        {%- if page.meta.tags -%}
+          {{ page.meta.tags | join(", ") }}
+        {%- endif -%}
+      align: start
+      color: "#FDD835"
+      font:
+        family: Inter
+        style: Medium
+  
+  # Decodedata Page Tags Icons
+  - size: { width: 32, height: 32 }
+    offset: { x: 656, y: 470}
+    icon:
+      value:  >-
+        {%- if page.meta.tags -%}
+          material/tag-text-outline
+        {%- endif -%}
+      color: "#FDD835"
+  
+  # Decodedata Page Date
+  - size: { width: 320, height: 30 }
+    offset: { x: 980, y: 510}
+    typography:
+      content: >-
+        {%- if page.meta.date -%}
+          {{ page.meta.date.strftime('%b %-d %Y') }}
+        {%- endif -%}
+      align: start
+      color: "#FDD835"
+      font:
+        family: Inter
+        style: Medium
+  
+  # Decodedata Page Title
+  - size: { width: 864, height: 256 }
+    offset: { x: 224, y: 64}
+    typography:
+      content: "{{ page.title }}"
+      align: "end bottom"
+      color: white
+      line: 
+        amount: 3
+        height: 1.25
+      font:
+        family: Inter
+        style: Bold
+  
+  # Rectangle
+  - size: { width: 3, height: 230 }
+    offset: { x: 1160, y: 400}
+    background:
+      color: "#FDD835"
