@@ -3,7 +3,7 @@ site_name: DecodeDataIO
 site_url: https://decodedataio.github.io/
 site_author: Jim & Nacho
 site_description: Decode GA4 data in BigQuery, high performance, easy to learn, ready for production
-docs_dir: docs-v2
+docs_dir: docs
 
 
 # Repository
@@ -65,8 +65,7 @@ theme:
 # Plugins
 plugins:
   - search
-  - meta:
-      meta_file: .meta.yml
+  - meta
   #- blog:
   #    blog_dir: blog 
   - i18n:
@@ -86,7 +85,7 @@ plugins:
       debug: false
       debug_color: yellow
       cards_dir: social
-      cache_dir: docs-v2/templates
+      cache_dir: docs/templates
       cards_layout: custom #default/accent
       cards_layout_options:
         background_color: "#0FF1CE8F"
