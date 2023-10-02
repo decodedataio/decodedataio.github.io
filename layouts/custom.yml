@@ -1,7 +1,7 @@
 size: { width: 1200, height: 630 }
 layers:
   - background:
-      #image: layouts/DecodeDataLogo_106x106.png
+      #image: "DecodeDataLogo_106x106.png"
       color: teal #"#0000008F"
   
   # Decodedata Logo
