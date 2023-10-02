@@ -5,7 +5,8 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :fontawesome-brands-medium:{ .lg .middle } Apr 22, 2021 | 6 min reads
+-   :fontawesome-brands-medium:{ .lg .middle } Apr 22, 2021  :material-clock-fast:{ .lg .middle } 6 min reads 
+    <!--- (![Image title](https://avatars.githubusercontent.com/u/34912260){ align=left, .jim_avatar }) -->
     
     __Google Cloud Storage (GCS) to BigQuery the simple way__ 
 
@@ -18,7 +19,7 @@ hide:
     [:octicons-arrow-right-24: Continue reading](https://towardsdatascience.com/google-cloud-storage-gcs-to-bigquery-the-simple-way-4bb74216b8c8){:target="_blank"}
 
 
--   :fontawesome-brands-medium:{ .lg .middle } Apr 27, 2021 | 3 min reads
+-   :fontawesome-brands-medium:{ .lg .middle } Apr 27, 2021  :material-clock-fast:{ .lg .middle } 3 min reads
     
     __Connecting BigQuery to Colab & Converting Query Results to Python Dict__
 
@@ -31,7 +32,7 @@ hide:
     [:octicons-arrow-right-24: Continue reading](https://blog.devgenius.io/connecting-bigquery-to-colab-and-converting-query-results-to-python-dictionaries-9a19a4bac065){:target="_blank"}
 
 
--   :fontawesome-brands-medium:{ .lg .middle } Nov 10, 2021 | 4 min reads
+-   :fontawesome-brands-medium:{ .lg .middle } Nov 10, 2021  :material-clock-fast:{ .lg .middle } 4 min reads
     
     __Getting Started with BigQuery Scripting__
 

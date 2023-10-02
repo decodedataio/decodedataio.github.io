@@ -20,8 +20,18 @@
   width: 13.1rem;
 }
 */
+
 .my-owm-announcement {
   text-align: center;
   color: white;
   font-size: .8rem;
+}
+
+.jim_avatar {
+  background-image: url('https://avatars.githubusercontent.com/u/47498082');
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
 }
