@@ -1,0 +1,57 @@
+
+
+/*
+****************  Palette colour TX  **********************
+
+#primary-colour: #006ba6
+#bg-light-secondary: #9bbec7
+#bg-light: #ffffffff
+#bg-dark: #647aa3
+
+#bg-light-alt: #f4f6f6
+#bg-dark-alt: #111b22
+#secondary-colour: 
+#light-yellow-btn: #111b22
+#dark-yellow-btn: #fbc451
+#gray-colour-alt: #253541
+#h1-white: #fcfdfd
+#p-gray: #768793 
+*/
+
+:root {
+    --md-primary-fg-color:        #006ba6;
+    --md-primary-fg-color--light: teal;
+    --md-primary-fg-color--dark:  teal;
+  }
+
+  /*
+.md-grid {
+  max-width: 1440px; 
+}
+*/
+
+/*
+.md-sidebar {
+  align-self: flex-start;
+  flex-shrink: 0;
+  padding: 1.2rem 0;
+  position: sticky;
+  top: 2.4rem;
+  width: 13.1rem;
+}
+*/
+
+.my-owm-announcement {
+  text-align: center;
+  color: white;
+  font-size: .8rem;
+}
+
+.jim_avatar {
+  background-image: url('https://avatars.githubusercontent.com/u/47498082');
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}

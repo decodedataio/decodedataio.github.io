@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://decodedataio.github.io/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/products/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/products/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/products/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/articles/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/articles/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/articles/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/decodedata/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/decodedata/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/decodedata/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/decodedata/code-blocks/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/decodedata/code-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/decodedata/code-blocks/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/es/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/es/products/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/products/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/products/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/es/articles/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/articles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/articles/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/es/decodedata/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/decodedata/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/decodedata/"/>
+    </url>
+    <url>
+        <loc>https://decodedataio.github.io/es/decodedata/code-blocks/</loc>
+        <lastmod>2023-10-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://decodedataio.github.io/es/decodedata/code-blocks/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://decodedataio.github.io/decodedata/code-blocks/"/>
+    </url>
+</urlset>

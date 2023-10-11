@@ -1,0 +1,97 @@
+
+
+/*
+****************  Palette colour TX  **********************
+
+primary-colour: #006ba6
+bg-light-secondary: #9bbec7
+bg-light: #ffffffff
+bg-dark: #647aa3
+*/
+
+/*
+.c {
+--bg-light-alt: #f4f6f6;
+--bg-dark-alt: #111b22;
+--light-yellow-btn: #111b22;
+--dark-yellow-btn: #fbc451;
+--gray-colour-alt: #253541;
+--h1-white: #fcfdfd;
+--p-gray: #768793; 
+}*/
+
+:root {
+    /* theme colour */
+    --md-primary-fg-color:        #006ba6; /* main colour */
+    --md-primary-bg-color: #ffffffff; /* main text colour */
+    --md-primary-bg-color--light: #9bbec7; /* search text */
+    --md-primary-fg-color--light: #9bbec7;
+    /*--md-primary-fg-color--dark:  #647aa3;*/
+    
+
+    
+    --md-accent-fg-color: #439bcb; /* bg btn hover*/
+    --md-accent-bg-color: #ffffffff; /* text btn hover*/
+    /*--md-accent-fg-color--transparent: yellow;
+    --md-accent-bg-color--light: green;*/
+  }
+
+/*
+[data-md-color-scheme="accent-tx"] {
+    --md-hue: 100; 
+  }
+*/
+
+.my-owm-announcement {
+  text-align: center;
+  color: white;
+  font-size: .8rem;
+}
+
+.jim_avatar {
+  background-image: url('https://avatars.githubusercontent.com/u/47498082');
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+
+/* Remove default title on the page */
+/*
+.md-content__inner h1:first-child {
+  display: none;
+}
+*/
+
+/* Adjust to 2px to align with the title */
+/*
+.md-logo {
+  padding-top: 6px;
+}
+
+.btn {
+  border: none;
+  padding: 14px 28px;
+  cursor: pointer;
+  display: inline-block;
+
+  background: #009688;
+  color: white;
+}
+
+.btn:hover {
+  background: #00bfa5;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+*/
