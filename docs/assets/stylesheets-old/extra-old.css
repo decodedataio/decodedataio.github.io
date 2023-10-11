@@ -1,5 +1,25 @@
+
+
+/*
+****************  Palette colour TX  **********************
+
+#primary-colour: #006ba6
+#bg-light-secondary: #9bbec7
+#bg-light: #ffffffff
+#bg-dark: #647aa3
+
+#bg-light-alt: #f4f6f6
+#bg-dark-alt: #111b22
+#secondary-colour: 
+#light-yellow-btn: #111b22
+#dark-yellow-btn: #fbc451
+#gray-colour-alt: #253541
+#h1-white: #fcfdfd
+#p-gray: #768793 
+*/
+
 :root {
-    --md-primary-fg-color:        teal;
+    --md-primary-fg-color:        #006ba6;
     --md-primary-fg-color--light: teal;
     --md-primary-fg-color--dark:  teal;
   }

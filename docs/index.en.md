@@ -3,22 +3,17 @@ date: 2023-09-29
 tags:
 - Research
 - Artifacts
-icon: material/cat
+icon: material/home
 hide:
   - navigation
   # - ![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
-  #template: home.html
+template: home.html
 ---    
-
-
-
 
 
 <div class="grid cards" markdown>
 
 -   # Decode Data
-
-    ![Image title](assets/decodedata-banner-01.jpeg){ align=left }
     
     Decode Data (decodedata.io) is your solution to navigate the increasingly complex world of GA4 data. We help marketing agencies and mid to large-sized businesses efficiently access, process, and leverage their GA4 data in BigQuery. No coding, no complex implementations, and no inflated Google Cloud Storage costs.  Do more with the data you are collecting 
 

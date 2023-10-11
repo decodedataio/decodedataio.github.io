@@ -1,5 +1,5 @@
 {
-  "social/index.png": "2088b3010ce69666bb60f1fbcc231ec32d884a12",
+  "social/index.png": "cd30761d8ee80c7f9497384e9569e03beb3ac28e",
   "social/es/index.png": "d65cab623f0b1136393f3b519c4cf4135fe92cb1",
   "social/blog/index.png": "d9426022ad179646d98e62e547308bc20938eb8b",
   "social/es/blog/index.png": "d9426022ad179646d98e62e547308bc20938eb8b",
@@ -17,5 +17,7 @@
   "social/decodedata/includes/abbreviations.png": "454bc26425b165501d24a329177e9fd8066374f5",
   "social/es/decodedata/includes/abbreviations.png": "454bc26425b165501d24a329177e9fd8066374f5",
   "social/decodedata/code-blocks.png": "54f8a67d41e2a8bf3d47f321f4e148f52e10623c",
-  "social/es/decodedata/code-blocks.png": "54f8a67d41e2a8bf3d47f321f4e148f52e10623c"
+  "social/es/decodedata/code-blocks.png": "54f8a67d41e2a8bf3d47f321f4e148f52e10623c",
+  "social/products.png": "dca78b49dadb34a2e129e2b665c7440276a2db63",
+  "social/es/products.png": "dca78b49dadb34a2e129e2b665c7440276a2db63"
 }
